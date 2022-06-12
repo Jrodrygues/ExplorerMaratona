@@ -17,6 +17,12 @@ body {
   color: white;
   text-align: center;
   font-family: sans-serif;
+
+  background-image: url(./assets/icons/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 #container {
