@@ -27,6 +27,7 @@ const respostas = [
 function fazerPergunta() {
   if (inputPergunta.value == '') {
     alert('Digite sua pergunta')
+
     return
   }
 
@@ -38,7 +39,8 @@ function fazerPergunta() {
   const totalRespostas = respostas.length
   const numeroAleatorio = Math.floor(Math.random() * totalRespostas)
 
-  elementoResposta.innerHTML = pergunta + respostas[numeroAleatorio]
+  elementoResposta.innerHTML =
+    '🤔: ' + pergunta + '🧙‍♂️: ' + respostas[numeroAleatorio]
 
   elementoResposta.style.opacity = 1
 
@@ -48,3 +50,4 @@ function fazerPergunta() {
     buttonPerguntar.removeAttribute('disabled')
   }, 3000)
 }
+

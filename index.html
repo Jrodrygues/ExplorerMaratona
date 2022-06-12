@@ -3,11 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Vou revelar seu destino</title>
-    <script 
-      type="text/javascript" 
-      src="./script.js" defer></script>
+    <script
+      type="text/javascript"
+      src="./assets/javascript/script.js"
+      defer
+    ></script>
   </head>
   <body>
     <div id="container">
@@ -16,13 +18,49 @@
         alt="Imagem de uma bola de cristal"
       />
       <h1>Vou revelar seu destino!</h1>
-      <p>Clique em fazer pergunta para que seu destino seja revelado.</p>
+      <p>
+        Clique em <span>fazer pergunta</span> para que seu destino seja
+        revelado.
+      </p>
       <input id="inputPergunta" type="text" placeholder="Digite sua pergunta" />
       <button id="buttonPerguntar" onclick="fazerPergunta()">
         Fazer Pergunta
       </button>
-
       <h3 id="resposta"></h3>
     </div>
+    <footer id="rodaPe">
+      <div class="social-media">
+        <div class="instagram">
+          <a href="https://www.instagram.com/j.rodryguez/" target="_blank">
+            <img src="./assets/icons/icons8-instagram-48.png" alt="Instagram" />
+            <span>Instagram</span>
+          </a>
+        </div>
+
+        <div class="twitter">
+          <a href="https://twitter.com/JRodriiiigues" target="_blank">
+            <img
+              src="./assets/icons/icons8-twitter-quadrado-48.png"
+              alt="Twitter"
+            />
+            <span>Twitter</span>
+          </a>
+        </div>
+
+        <div class="github">
+          <a href="https://github.com/Jrodrygues" target="_blank">
+            <img src="./assets/icons/icons8-github-48.png" alt="GitHub" />
+            <span>GitHub</span>
+          </a>
+        </div>
+
+        <div class="linkedin">
+          <a href="https://www.linkedin.com/in/jrodrygues/" target="_blank">
+            <img src="./assets/icons/icons8-linkedin-48.png" alt="LinkedIn" />
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
