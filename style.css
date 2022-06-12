@@ -1,35 +1,44 @@
 * {
   margin: 0;
-  box-sizing: border-box;
+  box-sizing:  border-box;
+
+  font-size: 62.5%;
+
+  --color-theme: #00b894;
+  --color-bg: #030813; /* #130F40 */
 }
 
 body {
-  background-color: black;
+  background-color: var(--color-bg);
   color: white;
   text-align: center;
   font-family: sans-serif;
 }
 
 #container {
-  margin-top: 100px;
-  width: 80%;
-  max-width: 400px;
+  /*width: 80%;*/
+  margin-top: 5rem;
+  max-width: 40rem;
   margin-inline: auto;
 }
 
 h1 {
-  margin-top: 40px;
-  margin-bottom: 10px;
-  opacity: 0.9;
+  margin-block: 4rem 1rem;
+  font-size: 3.2rem;
+  /*margin-top: 40px;
+  margin-bottom: 10px;*/
+  opacity: 90%;
 }
 
 p {
-  margin-bottom: 40px;
-  opacity: 0.7;
+  margin-bottom: 4rem;
+  opacity: 70%;
+  font-size: 1.6rem;
 }
 
 p span {
-  color: blueviolet;
+  color: var(--color-theme);
+  font-size: 1.6rem;
   font-weight: 700;
   filter: brightness(1.2);
 }
@@ -38,20 +47,23 @@ input,
 button {
   display: block;
   width: 100%;
+  padding: 2rem;
 
-  padding: 20px;
-  font-size: 20px;
-  border-radius: 4px;
+  border: none;
+  border-radius: 0.4rem;
+
+  font-size: 2rem;
 }
 
 input {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 button {
-  border: none;
-  background-color: blueviolet;
-  color: white;
+  color: var(--color-bg);
+  font-weight: 700;
+  background-color: var(--color-theme);
+  
   transition: filter 0.2s;
 }
 
@@ -62,13 +74,19 @@ button:hover {
 }
 
 #resposta {
-  margin-top: 30px;
+  /*margin-top: 30px;*/
 
-  transition: opacity 1s;
+  transition: opacity 1.5s;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  padding-block: 2rem;
 }
 
 #resposta div {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: normal;
   opacity: 0.9;
   margin-bottom: 10px;
@@ -79,36 +97,36 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 24px;
+  gap: 1.5rem;
 
-  max-width: 640px;
-  margin-top: 48px;
+  max-width: 40rem;
+  margin-top: 3rem;
   margin-inline: auto;
 }
 
 .social-media img {
-  width: 40px;
+  width: 2.5rem;
 }
 
 .social-media span {
-  font-size: 20px;
+  font-size: 1.3rem;
 }
 
-.instagram a,
-.twitter a,
-.github a,
+.instagram a, 
+.twitter a, 
+.github a, 
 .linkedin a {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 0.5rem;
 
   color: white;
   text-decoration: none;
 }
 
-.instagram a:hover,
-.twitter a:hover,
-.github a:hover,
+.instagram a:hover, 
+.twitter a:hover, 
+.github a:hover, 
 .linkedin a:hover {
-  color: blueviolet;
+  color: var(--color-theme);
 }
