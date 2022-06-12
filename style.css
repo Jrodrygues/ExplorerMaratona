@@ -66,6 +66,7 @@
   }
   
   button {
+    font-family: "Rubik", sans-serif;
     color: var(--color-bg);
     font-weight: 700;
     background-color: var(--color-theme);
