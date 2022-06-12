@@ -110,5 +110,5 @@ button:hover {
 .twitter a:hover,
 .github a:hover,
 .linkedin a:hover {
-  color: var(--color-theme);
+  color: blueviolet;
 }
