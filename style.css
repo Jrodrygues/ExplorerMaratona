@@ -79,19 +79,19 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 24px;
 
-  max-width: 40rem;
-  margin-top: 3rem;
+  max-width: 640px;
+  margin-top: 48px;
   margin-inline: auto;
 }
 
 .social-media img {
-  width: 2.5rem;
+  width: 40px;
 }
 
 .social-media span {
-  font-size: 1.3rem;
+  font-size: 20px;
 }
 
 .instagram a,
@@ -100,7 +100,7 @@ button:hover {
 .linkedin a {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 8px;
 
   color: white;
   text-decoration: none;
