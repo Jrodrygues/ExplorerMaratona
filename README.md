@@ -1,7 +1,7 @@
 # Vou-revelar-seu-destino-
 Projeto desenvolvido no evento Maratona Explorer da Rocketseat
 
-# Maratona Exploreer
+# Maratona Explorer
 
 ![preview](preview/preview.jpg)
 
